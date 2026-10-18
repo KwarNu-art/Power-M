@@ -1,0 +1,10 @@
+Package: com.kwarnu.powerm
+Name: Power-M
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Super Ultra sleep battery saver. Automatically cuts battery drain while the screen is off.
+Maintainer: KwarNu
+Author: KwarNu
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Icon: https://raw.githubusercontent.com/KwarNu-art/Power-M/main/assets/icon.png

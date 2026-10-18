@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <clipPath id="clip"><rect width="1024" height="1024" rx="232"/></clipPath>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1030"/>
+      <stop offset="0.55" stop-color="#1d1759"/>
+      <stop offset="1" stop-color="#0a4a57"/>
+    </linearGradient>
+    <linearGradient id="mint" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8dffd2"/>
+      <stop offset="0.55" stop-color="#37e2a4"/>
+      <stop offset="1" stop-color="#14b8a6"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#37e2a4" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#37e2a4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="34"/></filter>
+    <linearGradient id="night" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#141a48"/>
+      <stop offset="1" stop-color="#241d63"/>
+    </linearGradient>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1024" height="1024" fill="url(#bg)"/>
+    <ellipse cx="512" cy="540" rx="400" ry="470" fill="url(#halo)"/>
+    <g fill="#fff">
+      <path d="M176 250 l9 26 26 9 -26 9 -9 26 -9 -26 -26 -9 26 -9z" opacity="0.9"/>
+      <path d="M842 318 l7 20 20 7 -20 7 -7 20 -7 -20 -20 -7 20 -7z" opacity="0.8"/>
+      <path d="M828 742 l9 26 26 9 -26 9 -9 26 -9 -26 -26 -9 26 -9z" opacity="0.7"/>
+      <path d="M206 704 l6 17 17 6 -17 6 -6 17 -6 -17 -17 -6 17 -6z" opacity="0.7"/>
+      <circle cx="150" cy="500" r="5" opacity="0.6"/>
+      <circle cx="890" cy="520" r="5" opacity="0.55"/>
+      <circle cx="262" cy="150" r="4" opacity="0.5"/>
+      <circle cx="760" cy="130" r="5" opacity="0.6"/>
+      <circle cx="300" cy="880" r="4" opacity="0.45"/>
+      <circle cx="700" cy="900" r="4" opacity="0.5"/>
+    </g>
+    <g filter="url(#blur)" opacity="0.8">
+      <rect x="332" y="206" width="360" height="640" rx="88" fill="#37e2a4"/>
+    </g>
+    <g>
+      <rect x="448" y="146" width="128" height="76" rx="26" fill="url(#mint)"/>
+      <rect x="332" y="190" width="360" height="656" rx="92" fill="url(#mint)"/>
+    </g>
+    <path d="M617.0 642.9 A140 140 0 1 1 505.1 426.1 A122 122 0 0 0 617.0 642.9 Z" fill="url(#night)"/>
+    <path d="M628 452 L639 484 L671 495 L639 506 L628 538 L617 506 L585 495 L617 484 Z" fill="url(#night)"/>
+    <rect width="1024" height="520" fill="url(#gloss)"/>
+  </g>
+</svg>
